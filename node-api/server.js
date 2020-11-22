@@ -1,7 +1,12 @@
 const express = require('express');
 const gremlin = require('gremlin');
 const cors = require('cors');
-
+/**
+ * Main server configuration.
+ * 
+ * API endpoints found at /routes/api/*
+ * app.use('/api/gremlin', require('./routes/api/gremlin'));
+ */
 const app = express();
 
 app.use(cors());
